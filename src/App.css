@@ -108,14 +108,15 @@
 
 .button-group {
   display: flex;
-  gap: 15px;
+  gap: 12px;
   justify-content: center;
   margin-top: 50px;
+  flex-wrap: wrap;
 }
 
 .btn {
-  padding: 18px 35px;
-  font-size: 1.3rem;
+  padding: 16px 20px;
+  font-size: 1.1rem;
   border: none;
   border-radius: 15px;
   cursor: pointer;
@@ -123,8 +124,9 @@
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   color: white;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 0.8px;
   flex: 1;
+  min-width: 100px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
   position: relative;
   overflow: hidden;
